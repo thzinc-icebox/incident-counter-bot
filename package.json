@@ -1,0 +1,28 @@
+{
+  "name": "incident-counter-bot",
+  "version": "1.0.0",
+  "description": "Incident counter bot",
+  "main": "index.js",
+  "scripts": {
+    "init": "wt init",
+    "start": "wt create -w -b .",
+    "publish": "wt create -b ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thzinc/incident-counter-bot.git"
+  },
+  "author": "Daniel James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thzinc/incident-counter-bot/issues"
+  },
+  "homepage": "https://github.com/thzinc/incident-counter-bot#readme",
+  "devDependencies": {
+    "wt-cli": "^6.1.1"
+  },
+  "dependencies": {
+    "date-util": "^1.2.1",
+    "moment": "^2.0.0"
+  }
+}
